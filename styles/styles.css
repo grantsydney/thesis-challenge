@@ -1,0 +1,139 @@
+html, body {
+  height: 100%
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none
+}
+
+
+/* background */
+#bg1{
+  border-left: 750px solid #600ac5;
+  border-bottom: 100px solid transparent;
+  border-right: 10px solid transparent;
+  position:absolute;
+  z-index: -1;
+}
+
+#bg2{
+  border-left: 2000px solid #612ed1;
+  border-bottom: 350px solid transparent;
+  position:absolute;
+  z-index: -2;
+}
+
+#bg3{
+  border-left: 2000px solid #5f56d7;
+  border-bottom: 475px solid transparent;
+  position:absolute;
+  z-index: -3;
+}
+
+/* fonts */
+#intro, #create-account-info{
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* buttons hovers */
+#support-button:hover, #search-button:hover, #create-account-button:hover, new-account-button:hover, contact-us-button:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.nav-item{
+  color:#fff;
+}
+
+
+/* icons */
+.fa-facebook-square{
+  color: #423992;
+
+}
+
+.fa-youtube{
+  color: #423992;
+}
+
+.fa-twitter{
+  color: #423992;
+}
+
+/* responsive footer */
+.generic-anchor {
+  opacity: .5;
+	color: #fff;
+	&:visited {
+		color: #fff
+	}
+	&:hover {
+		color: #fff
+	}
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#footer{
+  margin-top:10%;
+  background-color:#5f56d7;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%
+}
+.footer-list-top {
+  width: 20%;
+}
+.footer-list-top > li {
+  text-align: left;
+  padding-bottom: 10px
+}
+.footer-list-header {
+  /* padding: 10px 0 5px 0; */
+  color: #fff;
+  font: 1em "Oswald", sans-serif
+}
+.footer-list-anchor {
+  font: .9em "Open Sans", sans-serif
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 1em
+  }
+  .footer-list-anchor {
+    font-size: .8em
+  }
+
+}
+@media only screen and (max-width: 568px) {
+
+  .footer-list-top {
+    width: 100%
+  }
+  .footer-list-header {
+    font-size: 1em;
+  }
+  .footer-list-anchor {
+    font-size: .8em
+  }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 1em
+  }
+  .footer-list-anchor {
+    font-size: .5em
+  }
+
+}
