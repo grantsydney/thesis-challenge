@@ -27,7 +27,7 @@ a {
 }
 
 #bg3{
-  border-left: 2000px solid #5f56d7;
+  border-left: 2350px solid #5f56d7;
   border-bottom: 475px solid transparent;
   position:absolute;
   z-index: -3;
@@ -41,6 +41,10 @@ a {
 /* buttons hovers */
 #support-button:hover, #search-button:hover, #create-account-button:hover, new-account-button:hover, contact-us-button:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fa-envelope, .fa-map-marker{
+  color:#fff;
 }
 
 
