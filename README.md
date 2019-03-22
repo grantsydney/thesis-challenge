@@ -1,2 +1,2 @@
 # thesis-challenge
-![](thesis-demo.gif)
+![](thesis.gif)
